@@ -1,4 +1,4 @@
-body > section {
+body {
     margin: 0px;
     padding: 0px;
     background-color: #CCCCCC;
@@ -16,6 +16,6 @@ header > p {
     font-style: italic;
 }
 
-section > p {
+article > p {
     font-size: 24px;
 }
