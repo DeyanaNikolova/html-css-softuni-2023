@@ -11,10 +11,9 @@ article{
     color: white;
     background-color: rgb(51, 102, 153);
     border-radius: 16px;
-}
-article p{
     text-indent: 40px;
 }
+
 
 h1{
     font-family: "Georgia", serif;
