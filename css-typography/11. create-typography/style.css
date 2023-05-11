@@ -23,9 +23,16 @@ ol{
     line-height: 0.5;
 }
 
-table, td{
+table{
+    width: 100%;
+}
+thead{
+    background-color: grey;
+}
+
+table,td{
     border: 1px solid black;
-   
+  
 }
 
 blockquote{
