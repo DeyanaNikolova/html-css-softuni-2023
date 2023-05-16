@@ -1,0 +1,18 @@
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+header>nav {
+    display: block;
+}
+
+li {
+    display: inline-block;
+    padding: 30px 50px;
+    color: green;
+}
+
+ul {
+    list-style-type: none;
+
+}
