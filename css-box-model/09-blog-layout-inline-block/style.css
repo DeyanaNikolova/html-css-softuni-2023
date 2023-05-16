@@ -1,0 +1,22 @@
+article{
+    font-family: "Helvetica", sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+img{
+    align-self: inherit;
+}
+
+article>aside {
+    width: 30%;
+    padding-right: 15px;
+    margin-right: 15px;
+    float: right;  
+    
+  }
+ header, section, footer{
+    width: 70%;
+
+ }
+ section>img{
+    width: 70rem;
+ }
