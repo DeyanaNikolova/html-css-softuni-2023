@@ -33,3 +33,21 @@ background-position: center center; */
     object-fit: cover;
 }
 
+.content{
+    padding: 12px 18px;
+    text-align: center;
+}
+
+.content__title{
+    font-size: 21px;
+    margin-bottom: 6px;
+}
+
+.content__badge{
+    display: inline-block;
+    padding: 4px 16px;
+    margin-bottom: 32px;
+    border-radius: 16px;
+    background-color: #fff9ef;
+    color: #e6b356;
+}
