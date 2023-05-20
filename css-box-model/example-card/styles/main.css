@@ -1,6 +1,10 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+
 body{
     background-color: lightgray;
 padding: 12px;
+font-family: Arial, Helvetica, sans-serif;
 }
 h1{
     text-align: center;
@@ -10,7 +14,7 @@ h1{
 /* Card Component */
 
 .card{
-    width: 320px;
+    width: 360px;
     border: 2px solid black;
     border-radius: 6px;
     overflow: hidden;
@@ -18,8 +22,8 @@ h1{
 }
 
 .thumbnail{
-width: 320px;
-height: 320px;
+width: 360px;
+height: 360px;
 
 /* background-image: url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
 background-size: cover;
@@ -50,4 +54,40 @@ background-position: center center; */
     border-radius: 16px;
     background-color: #fff9ef;
     color: #e6b356;
+}
+
+.content__section-title{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: gray;
+}
+
+ul.content__projects{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 6px;
+    text-align: left;
+    font-size: 0px;
+}
+
+.project{
+    display: inline-block;
+    background-color: lightgray;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 16px;
+    /* margin-right: 4px; */
+}
+
+/* .project:last-child{
+    margin-right: 0px;
+} */
+
+.project:first-child{
+    margin-bottom: 4px;
+}
+
+.project:not(:last-child){
+    margin-right: 4px;
 }
