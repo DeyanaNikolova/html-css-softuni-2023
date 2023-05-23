@@ -66,3 +66,17 @@ bottom: -20px;
     bottom: 20px;
     right: 20px;
 }
+
+/* Sticky example */
+
+.sticky{
+    background-color: lightseagreen;
+}
+sticky p{
+    font-size: 32px;
+}
+
+.sticky img{
+    position:sticky;
+    top: 40px;
+}
