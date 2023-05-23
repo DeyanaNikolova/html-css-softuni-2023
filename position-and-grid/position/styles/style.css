@@ -38,3 +38,15 @@ body{
     top: 50px;
     left: 50px;
 }
+
+/* Absolute example */
+.absolute{
+    background-color: lightgreen;
+    position: relative;
+}
+
+.absolute img{
+    width: 100px;
+    position: absolute;
+right: 20px;
+}
