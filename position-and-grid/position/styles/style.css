@@ -48,5 +48,18 @@ body{
 .absolute img{
     width: 100px;
     position: absolute;
-right: 20px;
+right: -20px;
+bottom: -20px;
+}
+
+/* Fixed example */
+.fixed{
+    background-color: lightpink;
+    position: relative;
+}
+
+.fixed img{
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
 }
