@@ -7,13 +7,15 @@ body{
 .container{
     width: 80%;
     padding: 12px;
-    border: 2px dashed gray;
+    border: 2px dashed black;
+    margin-bottom: 32px;
 }
 
 .container img{
     width: 350px;
 }
 
+/* Static example */
 .static{
     background-color: lightblue;
   
@@ -22,4 +24,17 @@ body{
 .static img{
     position: static;
     top: 20px;
+    left: 20px;
+}
+
+/* Relative example */
+.relative{
+    background-color: lightcoral;
+
+}
+
+.relative img{
+    position: relative;
+    top: 50px;
+    left: 50px;
 }
