@@ -1,0 +1,10 @@
+.cards{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* First column will be 30% of the page 
+     grid-template-columns: 30% repeat(2, 200px); */
+     gap: 16px 32px;
+     
+     /* row-gap: 16px;
+     column-gap: 32px; */
+}
