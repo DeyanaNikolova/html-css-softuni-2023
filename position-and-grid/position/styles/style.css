@@ -1,0 +1,25 @@
+body{
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+
+.container{
+    width: 80%;
+    padding: 12px;
+    border: 2px dashed gray;
+}
+
+.container img{
+    width: 350px;
+}
+
+.static{
+    background-color: lightblue;
+  
+}
+
+.static img{
+    position: static;
+    top: 20px;
+}
