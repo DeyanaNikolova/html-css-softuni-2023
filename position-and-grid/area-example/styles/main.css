@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(6, 100px);
+    grid-template-areas:
+        "head head head head head head"
+        "side side  content content content content"
+        "side side  content content content content"
+        "side side  content content content content"
+        "side side  content content content content"
+        "footer footer footer footer footer footer"
+
+        /* "head head head head head head"
+        "side .  content content content content"
+        "side .  content content content content"
+        "side .  content content content content"
+        "side .  content content content content"
+        "footer footer footer footer footer footer" */
+    ;
+}
+
+.header {
+    grid-area: head;
+    background-color: red;
+}
+
+.sidebar {
+    grid-area: side;
+    background-color: orange;
+}
+
+.content {
+    grid-area: content;
+    background-color: blue;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: green;
+}
