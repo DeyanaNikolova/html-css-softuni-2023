@@ -11,9 +11,12 @@ li {
     padding-right: 20px;
 }
 
-i {
-    color: black;
+a{
+    border-radius: 50%;
     border-radius: 50%;
     background-color: rgb(230, 229, 229);
     padding: 16px;
+}
+i {
+    color: black; 
 }
