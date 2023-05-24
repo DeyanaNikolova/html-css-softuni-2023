@@ -4,11 +4,11 @@ img{
     margin-left: 40px;
 }
 
-.float-container{
+/* .float-container{
     border: 3px dashed black;
-}
+} */
 
-.clearfix{
+/* .clearfix{
 overflow: auto;
 }
 
@@ -16,4 +16,4 @@ overflow: auto;
     content: "";
     clear: both;
     display: table;
-}
+} */
