@@ -85,12 +85,41 @@ body {
 
 .card .content {
     position: absolute;
-    bottom: 0;
+    padding: 12px;
+    bottom: -147px;
     left: 0;
     width: 100%;
+
+    transition: bottom 300ms linear;
+
     background: rgb(2, 0, 36);
     background: linear-gradient(180deg,
             rgba(2, 0, 36, 0) 0%,
             rgba(2, 0, 36, 0.7222222222222222) 30%,
             rgba(2, 0, 36, 1) 60%);
+}
+
+.card .content .meta{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.card .content .title{
+    font-size: 22px;
+    text-align: center;
+}
+
+.card .content .description{
+    height: 137px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+/* HOVER EFFECT */
+
+.card:hover .content{
+   bottom: 0px;
 }
