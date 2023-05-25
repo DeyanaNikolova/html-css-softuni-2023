@@ -137,3 +137,24 @@ body {
 .card:hover .content{
    bottom: 0px;
 }
+
+
+/* Simple GRID */
+
+#simple-grid{
+    margin-top: 32px;
+    padding: 12px;
+    border: 1px dashed black;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    gap: 12px;
+}
+
+
+#simple-grid .item{
+    background-color: orange;
+    border-radius: 4px;
+    text-align: center;
+}
