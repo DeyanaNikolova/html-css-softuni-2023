@@ -46,9 +46,15 @@ font-size: 18px;
 margin-bottom: 12px;
 }
 
+.designer-card .meta-info{
+display: grid;
+grid-template-columns: 20px 2fr 3fr;
+gap:6px
+}
+
 .designer-card .meta-info .author{
-width: 30px;
-height: 30px;
+width: 100%;
+aspect-ratio: 1 / 1;
 border-radius: 50%;
 overflow: hidden;
 }
