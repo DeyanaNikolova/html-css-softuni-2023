@@ -25,28 +25,39 @@ body{
     object-fit: cover;
 }
 
-.hero .hero__title{
-    position:absolute;
+
+.hero .wrapper{
+   position:absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.hero .hero__title{
+    /* position:absolute;
+    top: 50%;
+    left: 50%; */
     font-size: 3rem;
     color: white;
     margin: 0;
     line-height: 1;
-    text-align: center;
+    margin-bottom: 16px;
+    /* text-align: center; */
 
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
 }
 
 .hero__subtitle{
-    position:absolute;
+    /* position:absolute;
     top: 60%;
-    left: 50%;
+    left: 50%; */
     font-size: 2rem;
     color: white;
     margin: 0;
     line-height: 1;
-    text-align: center;
+    /* text-align: center; */
 
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
 }
