@@ -1,0 +1,17 @@
+body{
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+}
+
+.container .article h2{
+font-family: Georgia, serif;
+line-height: 1.2;
+}
+
