@@ -3,7 +3,7 @@ body {
 }
 
 .designer-card {
-    width: 400px;
+    max-width: 700px;
     border-radius: 6px;
     overflow: hidden;
     position: relative;
@@ -83,8 +83,8 @@ body {
 /* Second card */
 
 .card {
-    width: 300px;
-    aspect-ratio: 1/1.5;
+    max-width: 300px;
+    /* aspect-ratio: 1/1.5; */
     border-radius: 6px;
     overflow: hidden;
     position: relative;
@@ -223,4 +223,38 @@ color: white;
 
 #grid-areas .item6{
     grid-area: large;
+}
+
+
+/* Cards Grid */
+
+#cards-grid{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap:20px;
+    grid-template-areas: 
+    "land1 land1 land1 land1 port1 port2"
+    ". . land2 land2 land2 land2";
+}
+
+#cards-grid .card{
+    aspect-ratio: auto;
+    height: 100%;
+}
+
+#cards-grid .landscape:first-of-type{
+    grid-area: land1;
+}
+
+#cards-grid .landscape:last-of-type{
+    grid-area: land2;
+}
+
+#cards-grid .portrate:first-of-type{
+    grid-area: port1;
+}
+
+#cards-grid .portrate:last-of-type{
+    grid-area: port2;
 }
