@@ -166,10 +166,24 @@ body {
     padding: 12px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 100px);
+    gap:12px;
+    grid-template-areas: 
+    "small1 medium1 large"
+    "small1 medium1 large"
+    "small2 medium1 large"
+    "small2 medium2 large"
+    "small3 medium2 large"
+    "small3 medium2 large";
 }
 
 #grid-areas .grid-article{
 position:relative;
+height: 100%;
+}
+
+#grid-areas .item{
+    overflow: hidden;
 }
 
 #grid-areas .grid-article h2{
@@ -185,4 +199,28 @@ color: white;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#grid-areas .item1{
+    grid-area: small1;
+}
+
+#grid-areas .item2{
+    grid-area: small2;
+}
+
+#grid-areas .item3{
+    grid-area: small3;
+}
+
+#grid-areas .item4{
+    grid-area: medium1;
+}
+
+#grid-areas .item5{
+    grid-area: medium2;
+}
+
+#grid-areas .item6{
+    grid-area: large;
 }
