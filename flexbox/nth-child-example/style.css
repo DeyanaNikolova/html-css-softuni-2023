@@ -1,0 +1,7 @@
+main div:nth-child(2) button:nth-child(4){
+    background-color: green;
+}
+
+main div:nth-child(2) button:nth-of-type(3){
+    background-color: red;
+}
