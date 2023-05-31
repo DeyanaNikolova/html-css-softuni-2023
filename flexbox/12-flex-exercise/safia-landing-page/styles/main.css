@@ -29,6 +29,7 @@ p{
     top:0px;
     background-color: #070e27;
 }
+
 .header .navigation{
     margin-left: auto;
     margin-right: 24px;
@@ -99,4 +100,45 @@ p{
    justify-content: space-between;
    align-items: center;
    gap: 8px;
+}
+
+
+/*  How section */
+
+#how{
+    padding: 70px 64px; 
+}
+
+#how .section-subtitle{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#how .section-title{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+#how .row{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#how .row .row-img{
+    width: 60%;
+}
+
+#how .row .title{
+font-size: 24px;
+margin-bottom: 12px;
+}
+
+#how .row .desc{
+    font-size: 14px;
+
 }
