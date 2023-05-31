@@ -6,7 +6,7 @@
 search, icons: #4e5a85;
 get started: #689eff;
 grey : #7e8bb6
-profile fields: #162044;
+
 */
 
 body {
@@ -15,12 +15,19 @@ body {
     color: #ffffff;
 }
 
+p{
+    color: #7e8bb6;
+}
+
 .header {
     padding: 16px 64px;
     display: flex;
     align-items: center;
     gap: 12px;
     border-bottom: 1px solid #162044;
+    position: sticky;
+    top:0px;
+    background-color: #070e27;
 }
 .header .navigation{
     margin-left: auto;
@@ -39,11 +46,57 @@ body {
     letter-spacing: 1px;
 }
 
-.header .login-btn{
+/* Buttons */
+
+.btn{
     border: none;
     border-radius: 4px;
     background-color: #162044;
     color: #ffffff;
     padding: 8px 20px;
     cursor: pointer;
+}
+
+.btn.btn-primary{
+    background-color: #0059f7;
+}
+
+/* Hero */
+
+#hero{
+    padding: 70px 64px;
+}
+
+#hero .welcome{
+    max-width: 900px;
+    margin: 0 auto 48px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero .welcome > *{
+    width: 45%;
+}
+
+#hero .welcome .title{
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+#hero .welcome .info{
+    margin-bottom: 12px;
+}
+
+#hero .hero-img{
+    margin: 0 auto 48px auto;
+}
+
+#hero .partners{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 8px;
 }
