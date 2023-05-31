@@ -15,6 +15,7 @@ html{
 .container span{
     border: 1px solid black;
     border-radius: 4px;
+   text-align: center;
 }
 
 .container span:nth-child(11){
