@@ -129,6 +129,14 @@ p{
     margin: 0 auto;
 }
 
+#how .row:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+#how .row:not(:last-child){
+ margin-bottom: 48px;
+}
+
 #how .row .row-img{
     width: 60%;
 }
