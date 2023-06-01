@@ -5,17 +5,22 @@ body {
 
 h1 {
     color: red;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: normal;
 }
 
 
-@media (max-width:600px) {
+@media (min-width:600px) {
     h1 {
         color: green;
+        font-weight: bold;
     }
 }
 
-@media (orientation:landscape){
+@media (min-width:800px){
     h1{
-        background-color: lightcoral;
+        color: orange;
+        text-align: right;
     }
 }
