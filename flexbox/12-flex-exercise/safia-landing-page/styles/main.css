@@ -15,7 +15,7 @@ body {
     color: #ffffff;
 }
 
-p{
+p {
     color: #7e8bb6;
 }
 
@@ -26,21 +26,21 @@ p{
     gap: 12px;
     border-bottom: 1px solid #162044;
     position: sticky;
-    top:0px;
+    top: 0px;
     background-color: #070e27;
 }
 
-.header .navigation{
+.header .navigation {
     margin-left: auto;
     margin-right: 24px;
 }
 
-.header .nav-list{
+.header .nav-list {
     display: flex;
     gap: 12px;
 }
 
-.header .nav-list a{
+.header .nav-list a {
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
@@ -49,7 +49,7 @@ p{
 
 /* Buttons */
 
-.btn{
+.btn {
     border: none;
     border-radius: 4px;
     background-color: #162044;
@@ -58,17 +58,17 @@ p{
     cursor: pointer;
 }
 
-.btn.btn-primary{
+.btn.btn-primary {
     background-color: #0059f7;
 }
 
 /* Hero */
 
-#hero{
+#hero {
     padding: 70px 64px;
 }
 
-#hero .welcome{
+#hero .welcome {
     max-width: 900px;
     margin: 0 auto 48px auto;
     display: flex;
@@ -76,52 +76,52 @@ p{
     align-items: center;
 }
 
-#hero .welcome > *{
+#hero .welcome>* {
     width: 45%;
 }
 
-#hero .welcome .title{
+#hero .welcome .title {
     font-size: 48px;
     line-height: 1.2;
 }
 
-#hero .welcome .info{
+#hero .welcome .info {
     margin-bottom: 12px;
 }
 
-#hero .hero-img{
+#hero .hero-img {
     margin: 0 auto 48px auto;
 }
 
-#hero .partners{
+#hero .partners {
     max-width: 900px;
     margin: 0 auto;
     display: flex;
-   justify-content: space-between;
-   align-items: center;
-   gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
 }
 
 
 /*  How section */
 
-#how{
-    padding: 70px 64px; 
+#how {
+    padding: 70px 64px;
 }
 
-#how .section-subtitle{
+#how .section-subtitle {
     text-align: center;
     font-size: 14px;
     margin-bottom: 8px;
 }
 
-#how .section-title{
+#how .section-title {
     text-align: center;
     font-size: 32px;
     margin-bottom: 48px;
 }
 
-#how .row{
+#how .row {
     display: flex;
     align-items: center;
     gap: 32px;
@@ -129,24 +129,87 @@ p{
     margin: 0 auto;
 }
 
-#how .row:nth-child(even){
+#how .row:nth-child(even) {
     flex-direction: row-reverse;
 }
 
-#how .row:not(:last-child){
- margin-bottom: 48px;
+#how .row:not(:last-child) {
+    margin-bottom: 48px;
 }
 
-#how .row .row-img{
+#how .row .row-img {
     width: 60%;
 }
 
-#how .row .title{
-font-size: 24px;
-margin-bottom: 12px;
+#how .row .title {
+    font-size: 24px;
+    margin-bottom: 12px;
 }
 
-#how .row .desc{
+#how .row .desc {
     font-size: 14px;
+}
 
+@media screen and (max-width:767px) {
+
+    #hero .welcome {
+        flex-direction: column;
+        gap: 24px;
+        text-align: center;
+    }
+
+    #hero .welcome .title {
+        width: 100%;
+    }
+
+    #hero .welcome > div {
+        width: 60%;
+    }
+
+    /*  How section */
+
+    #how .row {
+        gap: 18px;
+    }
+
+    #how .row:not(:last-child) {
+        margin-bottom: 36px;
+    }
+
+    #how .row .row-img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /*  Header */
+
+    .header .navigation {
+    display: none;
+    }
+
+    .header .btn{
+        margin-left: auto;
+    }
+
+    /* Hero */
+    #hero .welcome > div {
+        width: 80%;
+    }
+         
+    
+    /*  How section */
+
+    #how .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #how .row:nth-child(even) {
+        flex-direction: column;
+    }
+
+    #how .row .row-img {
+        width: 80%;
+    }
 }
