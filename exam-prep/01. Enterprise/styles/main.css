@@ -1,55 +1,64 @@
 body {
     font-family: Helvetica, sans-serif;
-    background-color: rgb(233, 230, 230);
+    color: #273240
 }
 
 .card {
-    display: grid;
-    position: relative;
-    margin-top: 36px;
-    margin-bottom: 36px;
-    grid-template-columns: repeat(2, 1fr);
+    background-color: #f6f8f9;
+    border-radius: 6px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 960px;
+    margin: 60px auto;
 }
 
-.card .text{
-    margin-top: 36px;
-    margin-left: 24px;
+.card .info {
+    width: 40%;
+    padding: 48px 0;
 }
-.card .text .subtitle {
-    font-size: 16px;
+
+
+.card .info .subtitle {
+    font-size: 14px;
     font-weight: normal;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
-.card .text .title {
-    font-size: 48px;
+.card .info .title {
+    font-size: 38px;
     font-weight: normal;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
-.card .text .desc{
-    margin-bottom: 24px;
+.card .info .desc {
+    margin-bottom: 20px;
+    color: #646f79;
 }
 
-.card .text .btn{
-    border-radius: 4px;
-    padding: 10px 20px;
+.card .info .btn {
+    all: unset;
+    border: 1px solid #273240;
+    border-radius: 6px;
+    padding: 12px 18px;
+    font-weight: bold;
 }
 
-.card .text .btn:nth-of-type(1){
-  background-color: #796eff;
-  color: #fff;
-  margin-right: 10px;
-  border: none;
+.card .info .btn:nth-of-type(1) {
+    background-color: #786eff;
+    color: #fff;
+    margin-right: 10px;
+    border-color: #786eff;
 }
 
 
-.card .img-wrapper .img{
-    position: absolute;
+.card .img {
+    /* position: absolute;
     padding-right: 24px;
     top: 36px;
     bottom: 0;
-    right:0;
-    width: 300px;
-    height: 300px;
+    right: 0; */
+
+    width: 40%;
 }
