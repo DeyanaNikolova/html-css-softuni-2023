@@ -11,7 +11,10 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
-
+.card .text{
+    margin-top: 36px;
+    margin-left: 24px;
+}
 .card .text .subtitle {
     font-size: 16px;
     font-weight: normal;
@@ -40,10 +43,11 @@ body {
   border: none;
 }
 
-.card .img{
+
+.card .img-wrapper .img{
     position: absolute;
     padding-right: 24px;
-    top: 16px;
+    top: 36px;
     bottom: 0;
     right:0;
     width: 300px;
