@@ -1,3 +1,4 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 /* 
  bc: #070e27;
  bc-light: #162044;
@@ -62,6 +63,20 @@ p {
     background-color: #0059f7;
 }
 
+/*  Global styles */
+
+.section-subtitle {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
 /* Hero */
 
 #hero {
@@ -109,18 +124,6 @@ p {
     padding: 70px 64px;
 }
 
-#how .section-subtitle {
-    text-align: center;
-    font-size: 14px;
-    margin-bottom: 8px;
-}
-
-#how .section-title {
-    text-align: center;
-    font-size: 32px;
-    margin-bottom: 48px;
-}
-
 #how .row {
     display: flex;
     align-items: center;
@@ -162,7 +165,7 @@ p {
         width: 100%;
     }
 
-    #hero .welcome > div {
+    #hero .welcome>div {
         width: 60%;
     }
 
@@ -185,19 +188,18 @@ p {
     /*  Header */
 
     .header .navigation {
-    display: none;
+        display: none;
     }
 
-    .header .btn{
+    .header .btn {
         margin-left: auto;
     }
 
     /* Hero */
-    #hero .welcome > div {
+    #hero .welcome>div {
         width: 80%;
     }
-         
-    
+
     /*  How section */
 
     #how .row {
@@ -212,4 +214,50 @@ p {
     #how .row .row-img {
         width: 80%;
     }
+}
+
+/*  Pricing + mobile first approach */
+
+#pricing {
+    padding: 70px 64px;
+}
+
+#pricing .plans .plan {
+    padding: 12px 18px;
+    border-radius: 6px;
+    background-color: #162044;
+}
+
+#pricint .plans .plan.row:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+#pricing .plans .plan .title {
+    font-size: 18px;
+    font-weight: normal;
+    color: #7e8bb6;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #7e8bb6;
+    margin-bottom: 36px;
+}
+
+#pricing .plans .plan .title .price {
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#pricing .plans .plan .title .price .dollar-sign {
+    color: #7e8bb6;
+}
+
+#pricing .plans .plan .features {
+    color: #7e8bb6;
+    margin: 0 12px 36px 12px;
+}
+
+
+#pricing .plans .plan .features .feat:not(:last-child) {
+    margin-bottom: 16px;
 }
