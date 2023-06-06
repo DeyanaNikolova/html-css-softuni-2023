@@ -78,6 +78,13 @@ body {
 
 /*  Camera */
 
+#camera .title .divider.horizontal {
+    display: inline-block;
+    height: 1px;
+    width: 6rem;
+    background-color: var(--btn-bg);
+}
+
 #camera .socials {
     display: flex;
     align-items: center;
@@ -103,8 +110,8 @@ body {
 /* Photographer */
 
 .photographer-img {
-    margin: 0;
-    width: 100%;
+    margin: 1.5rem auto;
+    width: 99%;
     height: 100%;
 }
 
@@ -127,4 +134,49 @@ body {
 
 #gallery .list .picture:hover {
     transform: scale(1.5);
+}
+
+
+/*  Contacts */
+
+#contacts .title{
+    text-align: center;
+}
+
+#contacts .desc{
+    text-align: center;
+}
+
+
+#contacts .form{
+    max-width: 70%;
+    margin: 3rem auto;
+    /* display:grid; */
+   
+}
+
+#contacts .form input,
+textarea{
+    background-color: transparent;
+    border: 1px solid var(--btn-bg);
+    padding: 0.25rem;
+    width: 100%;
+}
+
+#contacts .form textarea{
+    resize: none;
+}
+
+#contacts .btn{
+    width: 100%;
+    display: block;
+    padding: 0.25rem 8rem;
+    font-weight: 600;
+    color: var(--page-bg);
+    background-color: var(--btn-bg);
+}
+
+
+#contacts .foot p{
+text-align: center;
 }
