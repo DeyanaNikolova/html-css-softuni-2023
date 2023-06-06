@@ -21,57 +21,55 @@ body {
     background-color: var(--page-bg);
     height: calc(100vh - 1.5rem);
     padding: 3rem 5rem;
-  
-}
-
-.section-flexed{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
     overflow: hidden;
 }
 
-.section-flexed .section-info{
+.section-flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-flexed .section-info {
     flex: 0 0 50%;
-  }
+}
 
-  .section-flexed .section-img{
+.section-flexed .section-img {
     flex: 0 1 35%;
-  }
+}
 
-.page-section .title{
+.page-section .title {
     font-weight: normal;
     font-size: 3rem;
     margin-bottom: 2.5rem;
 }
 
-.page-section .desc{
+.page-section .desc {
     font-style: italic;
     margin-bottom: 2rem;
 }
 
-.page-section .divider.vertical{
-height: 6rem;
-width: 1px;
-background-color: var(--btn-bg);
+.page-section .divider.vertical {
+    height: 6rem;
+    width: 1px;
+    background-color: var(--btn-bg);
 }
-
 
 
 /*  Hero */
 
-#hero .page-section{
-position: relative;
+#hero .page-section {
+    position: relative;
 
 }
 
-#hero .navigation{
+#hero .navigation {
     position: absolute;
     top: 2rem;
     right: 2rem;
 }
 
-#hero .hero-img{
+#hero .hero-img {
     position: absolute;
     width: 50%;
     bottom: 0px;
@@ -80,13 +78,13 @@ position: relative;
 
 /*  Camera */
 
-#camera .socials{
-display: flex;
-align-items: center;
-gap:2rem;
+#camera .socials {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
-#camera .socials .social{
+#camera .socials .social {
     background-color: var(--icon-bg);
     width: 3rem;
     height: 3rem;
@@ -94,18 +92,39 @@ gap:2rem;
     position: relative;
 }
 
-#camera .socials .social i{
+#camera .socials .social i {
     font-size: 2rem;
     position: absolute;
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
 /* Photographer */
 
-.photographer-img{
+.photographer-img {
     margin: 0;
     width: 100%;
     height: 100%;
+}
+
+/*  Gallery */
+#gallery {
+    display: flex;
+    align-items: center;
+}
+
+#gallery .list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+/* #gallery .list .picture{
+    transform: scale(1);
+    transition: transform 300ms ease-in-out;
+} */
+
+#gallery .list .picture:hover {
+    transform: scale(1.5);
 }
