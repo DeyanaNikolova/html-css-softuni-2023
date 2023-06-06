@@ -139,58 +139,59 @@ body {
 
 /*  Contacts */
 
-#contacts{
+#contacts {
     display: flex;
+    gap: 2.5rem;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
 }
 
-#contacts .title{
+#contacts .title {
     text-align: center;
 }
 
-#contacts .desc{
+#contacts .desc {
     text-align: center;
 }
 
-#contacts .form{
-    max-width: 70%;
-    margin: 3rem auto;
-    display:grid;
-   grid-template-columns: repeat(2, 1fr);
-   gap:1.25rem;
-   grid-template-areas: 
-   "email subject"
-   "message message"
-   "button button";
+#contacts .form {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    grid-template-areas:
+        "email subject"
+        "message message"
+        "button button";
 }
 
-#contacts .form .email{
+#contacts .form .email {
     grid-area: email;
 }
 
-#contacts .form .subject{
+#contacts .form .subject {
     grid-area: subject;
 }
 
-#contacts .form .msg{
+#contacts .form .msg {
     grid-area: message;
 }
 
 #contacts .form input,
-textarea{
+textarea {
     background-color: transparent;
     border: 1px solid var(--btn-bg);
     padding: 0.25rem;
     width: 100%;
 }
 
-#contacts .form textarea{
+#contacts .form textarea {
     resize: none;
 }
 
-#contacts .form .btn{
+#contacts .form .btn {
     grid-area: button;
     width: 100%;
     padding: 0.5rem;
@@ -201,6 +202,6 @@ textarea{
 }
 
 
-#contacts .foot p{
-text-align: center;
+#contacts .foot p {
+    text-align: center;
 }
