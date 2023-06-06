@@ -21,17 +21,21 @@ body {
     background-color: var(--page-bg);
     height: calc(100vh - 1.5rem);
     padding: 3rem 5rem;
+  
+}
+
+.section-flexed{
     display:flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
 }
 
-.page-section .section-info{
+.section-flexed .section-info{
     flex: 0 0 50%;
   }
 
-  .page-section .section-img{
+  .section-flexed .section-img{
     flex: 0 1 35%;
   }
 
