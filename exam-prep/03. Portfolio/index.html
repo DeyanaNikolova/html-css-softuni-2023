@@ -105,21 +105,21 @@
             </ul>
         </section>
 
-        <section id="message" class="page-section">
-            <h2>Say Hello</h2>
-            <p>
+        <section id="contacts" class="page-section">
+            <h2 class="title"><b>Say</b> Hello</h2>
+            <p class="desc">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
                 nesciunt.
             </p>
-            <div class="form">
-                <input type="email" placeholder="Your Email" />
-                <input type="text" placeholder="Subject" />
-                <textarea name="message" id="" cols="30" rows="10">Message</textarea>
-                <button>SEND MESSAGE</button>
-            </div>
-            <footer>
-                <span>&copy; Portfolio 2021</span>
+            <form action="/submit"  class="form">
+                <input class="email" type="email" name="email" placeholder="Your Email" />
+                <input class="subject" type="text" name="subject" placeholder="Subject" />
+                <textarea class="msg" name="message">Message</textarea>
+                <button class="btn">SEND MESSAGE</button>
+            </form>
+            <footer class="foot">
+                <p>&copy; Portfolio 2021</p>
             </footer>
         </section>
     </main>
