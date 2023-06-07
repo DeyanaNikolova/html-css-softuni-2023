@@ -203,50 +203,42 @@ body {
 
 /* Footer */
 
-.foot{
+.foot {
     background-color: #000000;
     margin-top: 0.25rem;
     padding: 1rem 0.75rem;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
-.foot .title{
+.foot .title {
     color: #222222;
     font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
-.foot .list{
+.foot .list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 1rem;
     padding-top: 0.5rem;
-    gap:0.25rem
+    gap: 0.25rem
 }
 
 .foot .list a,
 .foot p {
-   text-decoration: none;
-   color: #303030;
-   font-size: small;
-   font-weight: normal;
+    text-decoration: none;
+    color: #303030;
+    font-size: small;
+    font-weight: normal;
 }
-
-/* .foot p{
- padding-top: 1rem;
- color: #303030;
-} */
-
-
-
 
 
 
 @media screen and (min-width: 640px) {
 
     /* Hero */
-    #hero .form, 
+    #hero .form,
     #faq .form {
         flex-direction: row;
         gap: 0;
@@ -316,7 +308,7 @@ body {
         margin-bottom: 2rem;
     }
 
-    #hero .subtitle{
+    #hero .subtitle {
         font-size: 1.5rem;
     }
 
@@ -331,17 +323,22 @@ body {
         max-width: 100%;
     }
 
-    #faq .subtitle{
+    #faq .subtitle {
         font-size: 0.75rem;
     }
 
-   /* Footer */
+    /* Footer */
 
-   .foot .list{
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-}
+    .foot .list {
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        line-height: 1.25rem;
+    }
+
+    .foot .list a{
+        font-size: 0.75rem;
+    }
 
 }
 
@@ -367,11 +364,12 @@ body {
     #hero .desc {
         margin-bottom: 2rem;
     }
+
     #faq .wrapper {
         max-width: 70%;
     }
 
-    .foot .wrapper{
+    .foot .wrapper {
         max-width: 80%;
     }
 }
