@@ -151,6 +151,9 @@ body {
     background-color: #000000;
     color: #fff;
     margin-top: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -160,10 +163,6 @@ body {
     margin-bottom: 0.25rem;
     justify-content: space-between;
     background-color: #303030;
-}
-
-#faq .info {
-    margin: 2rem 1rem;
 }
 
 #faq .title {
@@ -178,6 +177,7 @@ body {
     font-size: 1rem;
     line-height: 1.2;
     margin-bottom: 1rem;
+    margin-top: 1.5rem;
     font-weight: normal;
     text-align: center;
 }
@@ -243,7 +243,8 @@ body {
 @media screen and (min-width: 640px) {
 
     /* Hero */
-    #hero .form {
+    #hero .form, 
+    #faq .form {
         flex-direction: row;
         gap: 0;
         max-width: 500px;
@@ -253,13 +254,15 @@ body {
         overflow: hidden;
     }
 
-    #hero .form .btn {
+    #hero .form .btn,
+    #faq .form .btn {
         width: 180px;
         flex-shrink: 0;
         border-radius: 0px;
     }
 
-    #hero .form input {
+    #hero .form input,
+    #faq .form input {
         border-radius: 0px;
     }
 }
@@ -297,9 +300,10 @@ body {
     }
 
 
-    /* Hero */
+    /* Hero and FAQ*/
 
-    #hero .wrapper {
+    #hero .wrapper,
+    #faq .wrapper {
         max-width: 760px;
     }
 
@@ -308,7 +312,7 @@ body {
         margin-bottom: 2rem;
     }
 
-    #hero .subtitle {
+    #hero .subtitle{
         font-size: 1.5rem;
     }
 
@@ -318,10 +322,16 @@ body {
         margin-bottom: 1.5rem;
     }
 
-    #hero .form {
+    #hero .form,
+    #faq .form {
         max-width: 100%;
     }
 
+    #faq .subtitle{
+        font-size: 0.75rem;
+    }
+
+   
 
 }
 
@@ -346,6 +356,9 @@ body {
     #hero .form,
     #hero .desc {
         margin-bottom: 2rem;
+    }
+    #faq .wrapper{
+        max-width: 70%;
     }
 }
 
