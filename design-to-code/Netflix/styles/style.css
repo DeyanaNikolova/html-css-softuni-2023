@@ -22,6 +22,30 @@ body {
     padding: 0.25rem 1rem;
 }
 
+/* Sections */
+
+.content-section {
+    background-color: #000000;
+    padding: 2rem 1rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 0.25rem;
+}
+
+.content-section .content {
+    margin-bottom: 1.25rem;
+}
+
+.content-section .title {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.content-section .desc {
+    font-size: 1rem;
+}
+
+
 /* Header */
 
 .header {
@@ -171,9 +195,9 @@ body {
 
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px) {
     /* Hero */
-   
+
     #hero .title {
         font-size: 3rem;
         margin-bottom: 2rem;
@@ -183,7 +207,7 @@ body {
         font-size: 2rem;
     }
 
-    #hero .desc{
+    #hero .desc {
         font-size: 1.5rem;
     }
 
