@@ -168,6 +168,30 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+
+     /* Sections */
+
+     .content-section {
+        padding: 4rem 3rem;
+        text-align: left;
+        margin-top: 0.25rem;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem; 
+        align-items: center;
+    }
+    
+    .content-section .content {
+        margin-bottom: 0;
+    }
+
+    .content-section:nth-last-of-type(even) .content{
+      order: 2;
+    }
+    
+
+
     /* Hero */
 
     #hero .wrapper {
@@ -193,6 +217,7 @@ body {
         max-width: 100%;
     }
 
+   
 }
 
 @media screen and (min-width: 1440px) {
