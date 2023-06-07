@@ -7,7 +7,6 @@ bg-grey: #222222;
 
  */
 
-@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
 /* Global */
 
@@ -157,7 +156,7 @@ body {
 
 #faq .list li {
     display: flex;
-    padding: 0.75rem 0.5rem;
+    padding: 1rem;
     margin-bottom: 0.25rem;
     justify-content: space-between;
     background-color: #303030;
