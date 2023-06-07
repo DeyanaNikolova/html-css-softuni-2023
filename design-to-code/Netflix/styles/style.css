@@ -42,7 +42,6 @@ body {
 /* Hero */
 
 #hero {
-
     height: 100vh;
     position: relative;
     color: #fff;
@@ -52,6 +51,21 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 0.7) 50%,
+            rgba(0, 0, 0, 1) 100%);
+    opacity: 0.8;
 }
 
 #hero .hero-bg {
@@ -65,4 +79,42 @@ body {
 #hero .wrapper {
     width: 90%;
     position: relative;
+}
+
+#hero .title {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+}
+
+#hero .subtitle {
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+#hero .form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#hero .form input {
+    width: 100%;
+    border: 1px solid #222222;
+    border-radius: 4px;
+    padding: 0.75rem 1.25rem;
+}
+
+#hero .form .btn {
+    padding: 0.75rem 1.25rem;
+}
+
+#hero .desc {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: normal;
 }
