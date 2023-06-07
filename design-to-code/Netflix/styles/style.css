@@ -118,3 +118,27 @@ body {
     line-height: 1.2;
     font-weight: normal;
 }
+
+@media screen and (min-width: 640px) {
+
+    /* Hero */
+    #hero .form {
+        flex-direction: row;
+        gap: 0;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    #hero .form .btn {
+        width: 180px;
+        flex-shrink: 0;
+        border-radius: 0px;
+    }
+
+    #hero .form input {
+        border-radius: 0px;
+    }
+}
