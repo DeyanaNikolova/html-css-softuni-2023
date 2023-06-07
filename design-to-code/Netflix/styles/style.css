@@ -7,24 +7,26 @@ bg-grey: #222222;
 
  */
 
- /* Global */
+/* Global */
 
- body{
+body {
     font-family: Arial, Helvetica, sans-serif;
- }
+    background-color: #222222;
+}
 
- .btn{
-    background-color:#e30813;
-    color:  #fff;
+.btn {
+    background-color: #e30914;
+    color: #fff;
     border-radius: 4px;
     border: none;
     padding: 0.25rem 1rem;
- }
+}
 
- /* Header */
+/* Header */
 
- .header{
+.header {
     position: fixed;
+    z-index: 10;
     top: 0;
     left: 0;
     width: 100%;
@@ -35,21 +37,32 @@ bg-grey: #222222;
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
+}
 
- /* Hero */
+/* Hero */
 
- #hero{
-    /* background-color: #222222; */
+#hero {
+
     height: 100vh;
     position: relative;
     color: #fff;
- }
+    text-align: center;
 
- #hero .hero-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-bg {
     position: absolute;
     z-index: -1;
     height: 100%;
     width: 100%;
     object-fit: cover;
- }
+}
+
+#hero .wrapper {
+    width: 90%;
+    position: relative;
+}
