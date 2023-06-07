@@ -207,6 +207,8 @@ body {
     background-color: #000000;
     margin-top: 0.25rem;
     padding: 1rem 0.75rem;
+    display:flex;
+    justify-content: center;
 }
 
 .foot .title{
@@ -222,6 +224,7 @@ body {
     padding-top: 0.5rem;
     gap:0.25rem
 }
+
 .foot .list a,
 .foot p {
    text-decoration: none;
@@ -303,7 +306,8 @@ body {
     /* Hero and FAQ*/
 
     #hero .wrapper,
-    #faq .wrapper {
+    #faq .wrapper,
+    .foot .wrapper {
         max-width: 760px;
     }
 
@@ -331,7 +335,13 @@ body {
         font-size: 0.75rem;
     }
 
-   
+   /* Footer */
+
+   .foot .list{
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
 
 }
 
@@ -357,8 +367,12 @@ body {
     #hero .desc {
         margin-bottom: 2rem;
     }
-    #faq .wrapper{
+    #faq .wrapper {
         max-width: 70%;
+    }
+
+    .foot .wrapper{
+        max-width: 80%;
     }
 }
 
