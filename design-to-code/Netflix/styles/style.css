@@ -7,6 +7,8 @@ bg-grey: #222222;
 
  */
 
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
 /* Global */
 
 body {
@@ -143,6 +145,69 @@ body {
     font-weight: normal;
 }
 
+/* Frequently Asked Quasrtions */
+
+#faq {
+    height: 100vh;
+    background-color: #000000;
+    color: #fff;
+    margin-top: 0.25rem;
+}
+
+
+#faq .list li {
+    display: flex;
+    padding: 0.75rem 0.5rem;
+    margin-bottom: 0.25rem;
+    justify-content: space-between;
+    background-color: #303030;
+}
+
+#faq .info {
+    margin: 2rem 1rem;
+}
+
+#faq .title {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+#faq .subtitle {
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+#faq .form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#faq .form input {
+    border: 1px solid #222222;
+    padding: 0.75rem 1.25rem;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#faq .form .btn {
+    padding: 0.75rem 1.25rem;
+}
+
+
+
+
+
+
+
 @media screen and (min-width: 640px) {
 
     /* Hero */
@@ -167,34 +232,38 @@ body {
     }
 }
 
+
+
+
+
 @media screen and (min-width: 768px) {
 
-     /* Sections */
+    /* Sections */
 
-     .content-section {
+    .content-section {
         padding: 4rem 3rem;
         text-align: left;
     }
 
-    .content-section .wrapper{
+    .content-section .wrapper {
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 1rem; 
+        gap: 1rem;
         align-items: center;
     }
-    
+
     .content-section .content {
         margin-bottom: 0;
     }
 
-    .content-section:nth-last-of-type(even) .content{
-      order: 2;
+    .content-section:nth-last-of-type(even) .content {
+        order: 2;
     }
-    
+
 
     /* Hero */
 
@@ -221,7 +290,7 @@ body {
         max-width: 100%;
     }
 
-   
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -248,8 +317,8 @@ body {
     }
 }
 
-@media screen and (min-width:1600px){
-    html{
+@media screen and (min-width:1600px) {
+    html {
         font-size: 20px;
     }
 }
