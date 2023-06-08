@@ -1,0 +1,94 @@
+body {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 100px auto;
+    grid-template-areas:
+        "header header"
+        "aside aside"
+        "main main"
+        "footer footer";
+}
+
+header {
+    grid-area: header;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: rgb(181, 216, 255);
+}
+
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+header ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 32px;
+}
+
+header ul li a {
+    /* padding: 5px 15px; */
+    color: rgb(53, 100, 153);
+    text-decoration: none;
+}
+
+main {
+    grid-area: main;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: rgb(181, 216, 255);
+}
+
+aside {
+    grid-area: aside;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: rgb(181, 216, 255);
+}
+
+aside ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+aside ul li a {
+    display: block;
+    padding: 5px 0px;
+    color: rgb(86, 40, 129);
+    text-decoration: none;
+}
+
+footer {
+    grid-area: footer;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: rgb(181, 216, 255);
+}
+
+aside ul li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 500px) {
+   
+    header nav ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding=left: 5px;
+    }
+}
