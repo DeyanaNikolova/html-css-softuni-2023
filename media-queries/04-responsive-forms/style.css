@@ -1,54 +1,80 @@
 body {
-    background-color: lightgray;
+
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-    background-color: aqua;
-    padding: 24px 36px;
-    text-align: center;
-    /* margin-left: 40%; */
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
 }
 
 .container .form {
+    background-color: #f8f8f8;
     position: relative;
     padding-top: 36px;
-    width: 300px;
-    height: 100px;
-    border: 1px solid red;
+    width: 40%;
+    height: 35%;
+    border: 1px solid #c5c5c5;
+    border-right: 2px solid #777777;
+    border-radius: 4px;
+  
 }
 
 .container .form .title {
     position: absolute;
-    top: -35px;
-    left: 0px;
-    border: 1px solid black;
-    padding: 4px 80px 4px 4px; 
+    top: -40px;
+    left: -1px;
+    padding: 4px 80px 4px 4px;
+    border-top: 1px solid #c5c5c5;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #777777;;
+    border-radius: 4px;
+    font-weight: normal;
 }
 
-.container .icon-username i{
-    padding-top: 1px;
-    padding-right: 2px;
+.container .wrapper{
+    padding-bottom: 12px;
+}
+
+.container .icon-username i {
     position: absolute;
+    padding-top: 5px;
+    padding-left: 5px;
+
 }
 
-.container .icon-password i{
-    position:absolute;
+.container .icon-password i {
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 .container .form label {
     display: inline-block;
+    font-weight: bold;
     margin-bottom: 12px;
     margin-left: 12px;
 }
 
-/* .container .form input{
+.container .form input {
     padding-top: 2px;
-    padding-right: 2px;
-} */
+    width: 65%;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #d4d4d4;
+}
 
 
 .container .form .btn {
     display: block;
     margin-left: 10px;
+    background-color: #2d2d2d;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    padding: 6px 8px;
+    margin-bottom: 24px;
 }
