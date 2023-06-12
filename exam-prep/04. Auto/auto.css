@@ -1,8 +1,57 @@
-.container .title,
-.container .subtitle {
-    font-family: 'Raleway', sans-serif;
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #acacac;
 }
 
-.container .info {
-    font-family: 'Raleway', sans-serif;
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #6f6f6f;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 24px 
+}
+.container .title{
+    font-size: 500;
+    line-height: 1.5;
+}
+
+.container .img,
+.container .text-content{
+width: 50%;
+}
+
+
+.container .subtitle{
+    font-size: 18px;
+}
+
+
+.list{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.list .item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.list .item .icon{
+width: 100px;
+}
+
+.item  .wrapper .subtitle,
+.item  .wrapper .info{
+    margin: 0px;
 }
