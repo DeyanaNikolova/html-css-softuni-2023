@@ -15,19 +15,19 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     <header class="header">
         <p class="logo">
             <span class="title">WIREWORK</span>
-            <span class="devider"></span>
+            <span class="divider"></span>
             <span class="sub">BY TEMPLATED</span>
         </p>
     
         <nav class="navigation">
-            <ul class="list" role="list">
-                <li class="nav-item">
+            <ul class="nav" role="list">
+                <li class="nav-item active">
                   <a class="nav-link" href="#">HOMEPAGE</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">OUR CLIENTS</a>
                   </li>
-                  <li class="item">
+                  <li class="nav-item">
                     <a class="nav-link" href="#">ABOUT US</a>
                   </li>
                   <li class="nav-item">
@@ -39,14 +39,25 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
             </ul>
         </nav>
     </header>
-    <main id="hero" class="main">
-<img class="img" src="./images/banner.jpg" alt="banner">
-<section class="hero-section">
-    <p class="desc">
-        This is Wirework, a free, fully standards-compliant CSS template designed by TEMPLATED. The photos in this template are from Fotogrph. This free template is released under the Creative Commons Attribution license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :)
-    </p>
+    <main class="main">
+
+<section id="hero">
+    <div class="img-container">
+        <img class="hero-img" src="./images/banner.jpg" alt="hero image" />
+    </div>
+   
+    <div class="content">
+        <p class="text">
+            This is Wirework, a free, fully standards-compliant CSS template designed by TEMPLATED. The photos in this template are from Fotogrph. This free template is released under the Creative Commons Attribution license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :)
+        </p>
+    </div>
+
+
+</section>
+
+<section class="icon-links">
     <div class="icons">
-        <ul class="icon-list">
+        <ul class="icon-list" role="list">
             <li class="item">
                 <i class="fa-solid fa-key fa-rotate-270"></i>
                 <h3 class="icon-title">Maecenas lectus sapien</h3>
@@ -72,7 +83,20 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
             </li>
         </ul>
     </div>
+
+    <div class="info">
+        <h3 class="subtitle">
+            Maecenas vitae orci vitae tellus feugiat eleifend
+        </h3>
+        <p class="desc">
+            QUISQUE DICTUM INTEGER NISL RISUS, SAGITTIS CONVALLIS, RUTRUM ID, CONGUE, AND NIBH
+        </p>
+        <button class="btn">ETIAM POSUERE</button>
+    </div>
+   
+
 </section>
+
     </main>
     <footer class="foot">
 
