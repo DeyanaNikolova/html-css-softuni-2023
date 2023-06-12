@@ -12,15 +12,18 @@ h4{
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1440px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;  
     gap: 24px 
 }
-.container .title{
-    font-size: 500;
+
+.container .text-content .title{
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 24px;
     line-height: 1.5;
 }
 
@@ -29,11 +32,14 @@ h4{
 width: 50%;
 }
 
-
 .container .subtitle{
     font-size: 18px;
+    padding-bottom: 4px; 
 }
 
+.text-content .info:last-of-type{
+    margin-bottom: 32px;
+}
 
 .list{
     list-style: none;
@@ -44,12 +50,18 @@ width: 50%;
 .list .item{
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
+}
+
+.list .item:not(:last-child){
+margin-bottom: 16px;
 }
 
 .list .item .icon{
-width: 100px;
+width: 70px;
+margin-bottom: 12px;
 }
+
 
 .item  .wrapper .subtitle,
 .item  .wrapper .info{
