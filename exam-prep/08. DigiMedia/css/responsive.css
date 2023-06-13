@@ -1,1 +1,80 @@
-/* TODO: Add responsive styles here... */
+@media screen and (max-width: 600px) {
+
+    /* Navigation */
+    .navbar {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar .navbar-brand {
+        margin-right: unset;
+    }
+
+    /* Hero */
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .hero .hero-btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Servoces section */
+
+   .services .service-txt {
+ text-align: center;
+    }
+
+    .services .service-txt .hero-btns {
+        margin-bottom: 80px;
+    }
+
+    .services .service-box {
+        margin-bottom: 36px;
+    }
+
+   .services .side2-img img {
+        top: 2000px
+    }
+
+    /* About section */
+
+    .about  {
+    text-align: center;
+    }
+
+    .about img{
+        margin-bottom: 32pxpx;
+    }
+
+    .about .col-12{
+        margin-top: 70px;
+    }
+
+    /* Contact section */
+
+    .contact {
+        text-align: center;
+    }
+
+    .contact .contact-btn {
+        display: none;
+    }
+
+    /* Footer */
+
+    .container .row {
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+
+}
