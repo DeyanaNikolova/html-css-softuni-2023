@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
 
-body{
+body {
     font-family: 'Raleway', sans-serif;
-    background-color: #efefef;
+    max-width: 1920px;
+    padding: 32px;
 }
 
 /* #efefef
@@ -10,3 +11,32 @@ body{
 #111111
 icon-bg: #909090
 */
+
+
+
+/* layout */
+.section{
+    background-color: #efefef;
+    padding: 5rem;
+    margin-top: 2rem;
+}
+
+/* Header */
+.header {
+    display: none;
+    }
+
+/* Hero */
+#hero .title {
+font-weight: normal;
+font-size: 3.5rem;
+margin-bottom: 2.5rem;
+}
+
+.hero .img{
+    width: 50%;
+}
+
+.hero .info {
+    width: 50%;
+}
