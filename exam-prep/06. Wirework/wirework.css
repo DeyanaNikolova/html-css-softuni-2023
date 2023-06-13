@@ -236,6 +236,10 @@ body {
     background-color: var(--clr-gray-dark);
 }
 
+#advantages .section-grid .icon-title {
+    margin-bottom: 2rem;;
+}
+
 #foot .foot-text {
     display: flex;
     justify-content: center;
