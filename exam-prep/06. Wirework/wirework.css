@@ -29,10 +29,10 @@ light-color: #a2a2a2;
     --clr-green-dark: #1b9772;
 
     --clr-white: #ffffff;
-    --clr-white-text: #696969;
+    --clr-white-text: #555555;
+    --light-grey-text: #a2a2a2;
 
     --header-height: 66px;
-
 }
 
 body {
@@ -138,3 +138,113 @@ body {
     color: inherit;
 }
 
+.section-full {
+    padding: 6rem 4rem;
+}
+
+/* #features .icon-container {
+    background-color: var(--clr-primary-red);
+    height: 60px;
+    width: 60px;
+    margin-top: 48px;
+   align-items: center;
+} */
+
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.section-grid .section-grid-item {
+    text-align: center;
+}
+
+.section-grid .section-grid-item .icon-title {
+    color: var(--clr-white);
+    margin-bottom: 1rem;
+}
+
+.section-grid .section-grid-item .icon-text {
+    color: var(--clr-gray-text);
+    font-size: 20px;
+    margin-bottom: 6rem;
+}
+
+/* Features */
+
+#features {
+    background-color: var(--clr-gray);
+    color: var(--clr-white);
+    border: 1px solid var(--clr-gray);
+}
+
+#features .section-grid-item .icon-container {
+    margin-top: 3rem;
+    display: inline-block;
+    background-color: var(--clr-primary-red);
+    pad: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+#features .section-grid-item .icon-container i {
+    font-size: 48px;
+    padding: 1rem;
+}
+
+.section-grid .section-grid-item .divider {
+    /* border: 1px solid var(--clr-gray-text); */
+    height: 1px;
+    background-color: var(--clr-gray-text);
+    margin-bottom: 1.5rem;
+}
+
+#features .info {
+    background-color: var(--clr-white);
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    height: 14rem;
+    padding: 2rem;
+ 
+}
+
+#features .info .subtitle {
+    color: var(--clr-white-text);
+    font-size: 26px;
+    margin-bottom: 0.1rem;
+}
+
+#features .info .desc {
+    color: var(--light-grey-text);
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+}
+
+#features .info .btn {
+    background-color: var(--clr-green-dark);
+    color: var(--clr-white);
+    border: none;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 500;
+    padding: 1rem 2.5rem;
+}
+
+#advantages .section-grid {
+    padding-top: 4rem;
+    background-color: var(--clr-gray-dark);
+}
+
+#foot .foot-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-green-dark);
+    height: 9rem;
+}
+
+#foot .foot-text span {
+    color: var(--clr-green-text);
+    font-size: 16px;
+}
