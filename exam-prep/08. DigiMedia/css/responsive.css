@@ -29,7 +29,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 80px
+        margin-bottom: 80px;
     }
 
     /* Services section */
@@ -47,7 +47,7 @@
     }
 
     .services .side2-img img {
-        top: 1600px
+        top: 1600px;
     }
 
     /* About section */
