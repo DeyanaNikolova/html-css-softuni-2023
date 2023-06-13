@@ -1,0 +1,77 @@
+/* 
+bg: #f6f8f9;
+lilavo: #786eff;
+font-clr: #273240;
+paragraph: #636e78;
+*/
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.section {
+    max-width: 1080px;
+    background-color: #f6f8f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section .img {
+    width: 100%;
+}
+
+.section .container {
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border-radius: 4px;
+    margin-left: 24px;
+
+}
+
+.section .container .subtitle {
+    color: #273240;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.section .container .title {
+    color: #273240;
+    font-size: 48px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.section .container .desc {
+    color: #636e78;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.section .container .btn {
+    margin-top: 36px;
+}
+
+.section .container .btn .contact{
+    padding: 10px 12px;
+    background-color: #786eff;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #786eff;
+    margin-right: 12px;
+    letter-spacing: 1px;
+}
+
+.section .container .btn .more{
+    padding: 10px 12px;
+    background-color: #fff;
+    color: #273240;
+    border-radius: 4px;
+    border: 0.5px solid #273240;
+    letter-spacing: 1px;
+}
