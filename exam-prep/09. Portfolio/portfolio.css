@@ -10,14 +10,12 @@ body {
 icon-bg: #909090
 */
 
-
-
 /* layout */
 .section {
     background-color: #efefef;
     padding: 5rem;
     margin-top: 2rem;
-    height: 70vh;
+    height: 80vh;
 }
 
 .img-section {
@@ -35,6 +33,7 @@ icon-bg: #909090
     font-size: 1.75rem;
     font-style: italic;
     margin-bottom: 2rem;
+    line-height: 1.5;
 }
 
 .section .divider {
@@ -119,4 +118,22 @@ icon-bg: #909090
     text-align: center;
     font-size: 1.2rem;
     text-decoration: none;
+}
+
+/* Features */
+
+#featured {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+#featured .info {
+    width: 40%;
+}
+
+#featured .featured-img {
+    width: 50%;
+
 }
