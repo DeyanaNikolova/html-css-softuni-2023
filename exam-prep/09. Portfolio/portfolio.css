@@ -15,7 +15,17 @@ icon-bg: #909090
     background-color: #efefef;
     padding: 5rem;
     margin-top: 2rem;
-    height: 80vh;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.section-item-wide {
+width: 55%;
+}
+
+.section-item-narrow {
+width: calc(45% - 6rem);
 }
 
 .img-section {
@@ -80,15 +90,7 @@ icon-bg: #909090
     justify-content: space-between;
   align-items: center;
 }
-#camera .info{
-   width: 50%;
-}
 
-#camera .camera-img{
-    width: 38%;
-    margin-right: 6rem;
-    margin-left: 4rem;
-}
 #camera .title-wrapper {
     display: flex;
     align-items: center;
@@ -126,16 +128,8 @@ icon-bg: #909090
     display:flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
 }
 
-#featured .info {
-    width: 40%;
-}
-
-#featured .featured-img {
-    width: 50%;
-}
 
 /* Poster section  */
 
@@ -150,3 +144,7 @@ icon-bg: #909090
 }
 
 /* Gallery section */
+
+#gallery {
+    
+}
