@@ -7,15 +7,15 @@ body {
 }
 
 .container {
-    width: 55%;
+    width: 70%;
     height: calc(90vh - 10rem);
-    margin: 12rem auto;
+    margin: 10rem auto;
     border-radius: 25px;
     position: relative;
     padding: unset;
     overflow: hidden;
     background-image: url(./images/form-background.png);
-    background-size: 1200px;
+    background-size: 1400px;
 }
 
 /* .container .img{
@@ -31,8 +31,54 @@ body {
 
 .container .form-wrapper {
     position: absolute;
-    width: 45%;
+    width: 40%;
     top: 4rem;
     left: 4rem;
-    height: 70%;
+    height: 100%;
+}
+
+.form-wrapper .title{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form .input{
+    border-radius: 10px;
+}
+
+.form{
+    display:grid;
+    grid-template-areas: 
+    "first last"
+    "email email"
+    "pass pass"
+    "repass repass";
+    gap: 4rem;
+    position: relative;
+}
+
+.form .first{
+    grid-area: first;
+    width: 40%;
+}
+
+.form .last{
+    grid-area: last;
+    width: 40%;
+}
+.form .email{
+    grid-area: email;
+    width: 80%;
+}
+.form .pass{
+    grid-area: pass;
+    width: 80%;
+}
+.form .repass{
+    grid-area: repass;
+    width: 80%;
+}
+
+.form .label{
+    position: absolute;
 }
