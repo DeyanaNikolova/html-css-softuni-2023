@@ -43,76 +43,84 @@ bg - #f6f7f8
     padding: unset;
 }
 
-.calculator{
+.calculator {
     margin-left: 2rem;
     width: 50%;
 }
 
-.calculator .title{
+.calculator .title {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.calculator .utits .unit {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+  
+}
+
+.calculator .utits .standart {
+    background-color: #86d862;
+    margin-right: 8rem;
+    margin-bottom: 2rem;
+    margin-left: 9rem;
+    padding: 0.2rem 1rem;
+}
+
+.calculator .utits .metric {
+    background-color: #e0e0df;
+    padding: 0.2rem 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.form .desc {
+    font-weight: bold;
     text-align: center;
     margin: 2rem 0;
 }
 
-.calculator .utits .unit{
-   text-decoration: none;
-   color: black;
- border: 1px solid black;
- border-radius: 8px;
- padding: 0.2rem;
- margin-bottom: 1rem;
-}
-
-.calculator .utits .standart{
-    background-color: #86d862;
-    margin-right: 4rem;
-    margin-bottom: 1rem;
- margin-left: 3rem;
- padding: 0.2rem 1rem;
-}
-
-.calculator .utits .metric{
-    background-color: #e0e0df;
-    padding: 0.2rem 1rem;
-}
-
-.form .desc{
-    font-weight: bold;
-    text-align: center;
-}
-
 
 .gender .select {
-margin-right: 3rem;
-margin-left: 4rem;
-width: 30%;
-}
-.gender .year{
-    width: 30%;
-
+    margin-right: 2rem;
+    margin-left: 10rem;
+    width: 25%;
+    height: 1.5rem;
 }
 
-.weight .pounds{
-    width: 75%;
-    margin-left: 3rem;
+.gender .year {
+    width: 25%;
+    height: 1.5rem;
+}
+
+.weight .pounds {
+    width: 70%;
+    margin-left: 6rem;
+    height: 1.5rem;
 }
 
 .form .height .feet,
-.form .height .inches{
+.form .height .inches {
     width: 36%;
-    margin-left: 2rem;
-   margin-bottom: 2.5rem;
+    margin-bottom: 4rem;
+    height: 1.5rem;
+}
+
+.form .height .feet{
+    margin-left: 5rem;
 }
 
 
-.calculator .form .btn{
+.calculator .form .btn {
     width: 80%;
-    margin-left: 2rem;
-background-color: #05a2d3;
-border-radius: 15px;
-border: 1px solid #05a2d3;
-color: #fff;
-font-weight: bold;
-padding: 0.5rem 0;
-cursor: pointer;
-box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-left: 3rem;
+    background-color: #05a2d3;
+    border-radius: 20px;
+    border: 1px solid #05a2d3;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.75rem 0;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
