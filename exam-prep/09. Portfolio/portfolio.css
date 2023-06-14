@@ -145,6 +145,13 @@ width: calc(45% - 6rem);
 
 /* Gallery section */
 
-#gallery {
-    
+#gallery img{
+    width: 33.33%;
+    position: relative;
+    z-index: 1;
+}
+
+#gallery img:nth-child(2) {
+    transform: scale(1.5);
+    z-index: 2;
 }
