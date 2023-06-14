@@ -21,11 +21,11 @@ icon-bg: #909090
 }
 
 .section-item-wide {
-width: 55%;
+    width: 55%;
 }
 
 .section-item-narrow {
-width: calc(45% - 6rem);
+    width: calc(45% - 6rem);
 }
 
 .img-section {
@@ -40,7 +40,7 @@ width: calc(45% - 6rem);
 }
 
 .section .desc {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-style: italic;
     margin-bottom: 2rem;
     line-height: 1.5;
@@ -85,10 +85,10 @@ width: calc(45% - 6rem);
 
 /* Camera */
 
-#camera{
+#camera {
     display: flex;
     justify-content: space-between;
-  align-items: center;
+    align-items: center;
 }
 
 #camera .title-wrapper {
@@ -100,6 +100,10 @@ width: calc(45% - 6rem);
 #camera .title-wrapper .title {
     margin-bottom: unset;
     margin-left: 2.5rem;
+}
+
+#camera .camera-img{
+    width: calc(40% - 6rem);
 }
 
 #camera .socials {
@@ -125,7 +129,7 @@ width: calc(45% - 6rem);
 /* Features */
 
 #featured {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -145,7 +149,7 @@ width: calc(45% - 6rem);
 
 /* Gallery section */
 
-#gallery img{
+#gallery img {
     width: 33.33%;
     position: relative;
     z-index: 1;
@@ -154,4 +158,57 @@ width: calc(45% - 6rem);
 #gallery img:nth-child(2) {
     transform: scale(1.5);
     z-index: 2;
+}
+
+/* Contacts */
+
+#contacts .contacts-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contacts .desc {
+    margin-bottom: 2.5rem;
+   
+}
+
+#contacts .form {
+    display:grid;
+    width: 70%;
+    margin: 0 auto;
+    gap: 1.5rem;
+    grid-template-areas: 
+    "email subject"
+    "msg msg"
+    "btn btn";
+}
+
+#contacts .form .base {
+    border: 1px solid black;
+    padding: 0.75rem;
+    background-color: #efefef;
+    color: black
+}
+
+#contacts .form .email {
+    grid-area: email; 
+}
+
+#contacts .form .subject {
+    grid-area: subject;
+}
+
+#contacts .form .msg {
+    grid-area: msg;
+}
+
+#contacts .form .btn {
+    grid-area: btn;
+    background-color: #222222;
+    color: #fff;
+    padding: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 6rem;
 }
