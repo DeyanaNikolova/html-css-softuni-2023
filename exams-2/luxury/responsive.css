@@ -1,10 +1,8 @@
 @media (max-width:600px){
-    .div-header{
-background-color: aquamarine;
-    }
-    .options{
+    .gallery{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-bottom: 12px;
     }
 }
