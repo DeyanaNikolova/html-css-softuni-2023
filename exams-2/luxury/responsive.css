@@ -1,0 +1,10 @@
+@media (max-width:600px){
+    .div-header{
+background-color: aquamarine;
+    }
+    .options{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
