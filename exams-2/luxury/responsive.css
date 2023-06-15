@@ -1,8 +1,105 @@
-@media (max-width:600px){
-    .gallery{
+@media (max-width:600px) {
+
+    .div-header ul,
+    .div-logo {
+        display: none;
+    }
+
+    .options {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .options article h4 {
+        display: block;
+        text-align: center;
+    }
+
+    .options a {
+        display: none;
+    }
+
+    .gallery {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding-bottom: 12px;
+    }
+
+    .blog-title {
+        align-items: center;
+        font-size: 24px;
+    }
+
+    .blog-title span,
+    .blog-title a {
+        display: none;
+    }
+
+    .blog article img {
+        display: none;
+    }
+
+    main .blog #about-blog {
+        width: 90%;
+        height: 20%;
+    }
+
+    .magazine {
+        text-align: center;
+    }
+
+    .magazine .magazine-title h4 {
+        font-size: 20px;
+        transform: translateX(-10%);
+    }
+
+    .magazine .magazine-title {
+        width: 78%;
+    }
+    .magazine .magazine-info{
+        margin: 70px;
+    }
+
+
+    .magazine-title a {
+        display: none;
+    }
+
+    main .magazine article {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .magazine .magazine-info img {
+        width: 100%;
+        height: 279px
+    }
+
+ main footer{
+        flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+
+ main footer p{
+        width: 60%;
+        text-align: center;
+        font-size: 12px;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+ footer .icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    footer .icons i{
+        font-size: 16px;
     }
 }
