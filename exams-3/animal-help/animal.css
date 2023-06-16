@@ -189,16 +189,16 @@ height: 572px;
 /* Animals */
 
 .animals .subtitle{
-    font-size: 36px;
+    font-size: 48px;
     padding: 36px;
     text-align: center;
     font-weight: 800;
 }
 
 .animals .desc{
-font-size: 18px;
+font-size: 24px;
 text-align: center;
-margin-bottom: 24px;
+margin-bottom: 36px;
 }
 
 .gallery{
@@ -212,4 +212,86 @@ margin-bottom: 24px;
 .gallery-img{
    width: 350px;
    height: 350px;
+}
+
+.animals .animals-subtitle{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 36px;
+    margin-bottom: 24px;
+
+}
+
+.animals .how-work{
+    display: flex;
+    flex-direction: column;
+   gap:16px;
+   width: 1300px;
+margin-left: 300px;
+margin-bottom: 60px;
+}
+
+.how-work .head{
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #d9d9d9;
+    padding: 18px;
+    background-color: #85dcff;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.how-work .bottom{
+    border: 1px solid #d9d9d9;
+    padding: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 18px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* News */
+
+.news{
+    display: flex;
+/* margin-top: 60px; */
+}
+
+.news .img-news{
+    width: 50%;
+}
+
+.news .news-article{
+    padding: 80px;
+    margin-left: 24px;
+}
+
+.news-article .subtitle{
+    margin: 48px;
+    font-size: 36px;
+    margin-bottom: 36px;
+}
+
+.news-article .desc{
+    font-size: 18px;
+    margin-bottom: 36px;
+}
+
+.news-article input{
+    padding: 12px;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 36px;
+    border-radius: 4px;
+}
+
+.news-article .send-btn{
+    display: block;
+    background-color: black;
+    color: white;
+ 
+    margin-left: 4px;
+    padding: 16px 65px;
+    border-radius: 6px;
+    cursor: pointer;
 }
