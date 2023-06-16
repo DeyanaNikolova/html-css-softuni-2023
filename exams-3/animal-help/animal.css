@@ -148,4 +148,68 @@ text-align: center;
 
 .we-work{
     background-color: #85dcff;
+height: 572px;
+}
+
+.we-work .subtitle{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 36px;
+}
+
+.we-work .we-work-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.we-work .item{
+    margin: 24px auto;
+    position: relative;
+    width: 400px;
+    font-size: 18px;
+}
+
+.we-work .item i{
+    position: absolute;
+    top: -6px;
+    left: -24px
+}
+
+.we-work .btn-we-work{
+    display: block;
+    background-color: black;
+    color: white;
+    margin: 36px auto;
+}
+
+/* Animals */
+
+.animals .subtitle{
+    font-size: 36px;
+    padding: 36px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.animals .desc{
+font-size: 18px;
+text-align: center;
+margin-bottom: 24px;
+}
+
+.gallery{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 60px;
+}
+
+.gallery-img{
+   width: 350px;
+   height: 350px;
 }
