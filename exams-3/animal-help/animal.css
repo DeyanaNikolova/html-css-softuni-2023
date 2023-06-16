@@ -12,7 +12,7 @@ body{
 /* Navigation */
 
 .header{
-margin: 36px 48px;
+margin: 24px 48px;
 }
 
 .nav-bar{
@@ -312,9 +312,10 @@ margin-bottom: 60px;
 .foot .icons i{
  color: black;
  padding: 6px;
- font-size: 18px;
+ font-size: 36px;
 }
 
 .foot .copy{
     font-weight: bold;
+    font-size: 18px;
 }
