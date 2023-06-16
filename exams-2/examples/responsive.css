@@ -1,54 +1,69 @@
-@media (max-width: 600px) {
-    header {
+@media all and (max-width: 800px) {
+    .menu{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
+
     }
-    nav img {
-        padding-bottom: 15px;
+
+    .menu p{
+        text-align: center;
     }
-    nav {
-        flex-direction: column;
-    }
-    nav ul {
+    .nav-options{
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-        justify-content: space-around;
+        padding-left: 0;
     }
 
-    nav li {
-        padding-bottom: 5px;
+    .trainings{
+        display: flex;
+        flex-direction: column;
     }
 
-    .header-title {
-        padding: 0;
+    .instructors-pic{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .team-description ul {
+    .classes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .classes ul{
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-    }
-    .team-description ul li img {
-        width: 200px;
-        height: 200px;
-        padding-bottom: 0.3rem;
-    }
-    .choose-us ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin: 0 100px;
-    }
-    .blog-news ul {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        margin: 0 50px;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .blog-news ul .item {
-        margin-bottom: 50px;
+    .classes ul li{
+        width: 50%;
+    }
+
+    .getInTouch{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form{
+        width: 100%;
+    }
+    
+    .site-footer .wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .site-footer .wrapper .about{
+        flex-basis: 100%;
     }
 }
