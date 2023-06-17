@@ -18,17 +18,6 @@ span {
     font-family: 'PT Serif', serif;
 }
 
-/* 
-font-family: 'PT Sans', sans-serif;
-font-family: 'PT Serif', serif;
-*/
-
-/* 
-red: #d01919;
-grey: #efefef;
-
-*/
-
 body {
     width: 1900px;
 }
@@ -237,6 +226,8 @@ body {
     margin-bottom: 48px;
     color:#a6a1a5;
 }
+
+/* Footer */
 
 footer .foot {
     background-color: #d01919;
