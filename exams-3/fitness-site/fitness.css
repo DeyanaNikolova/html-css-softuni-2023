@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: 'PT Sans', sans-serif;
+}
+
+p,
+a,
+span{
+    font-family: 'PT Serif', serif;
+}
+/* 
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;
+*/
+
+/* 
+red: #d01919;
+grey: #efefef;
+
+*/
+
+body {
+    width: 1800px;
+}
+
+/* Header */
+.header {
+    background-color: #d01919;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.nav-bar {
+    margin: 0 60px;
+    padding: 16px 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-list .nav-link i,
+.nav-list span {
+    padding-left: 8px;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Hero */
+
+.hero {
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.hero .hero-img {
+    width: 1900px;
+    height: 700px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero .list {
+    list-style: none;
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    top: 90px;
+    right: 16px;
+    /* z-index: 2; */
+}
+
+.list .item a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.hero .title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    letter-spacing: 10px;
+    font-weight: 600;
+}
+
+.hero .desc{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* font-size: 18px; */
+    width: 500px;
+}
+
+.hero .btn{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    background-color: #d01919;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 8px;
+}
