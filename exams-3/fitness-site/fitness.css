@@ -121,3 +121,60 @@ body {
     border-radius: 6px;
     padding: 6px 8px;
 }
+
+/* Welcome section */
+
+.welcome{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome .divider{
+    height: 3px;
+    width: 40px;
+    background-color: #d01919;
+}
+
+.welcome .head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head .sub{
+font-size: 36px;
+margin-bottom: 24px;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.features .card{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    margin: 36px auto;
+}
+
+.card .card-img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 24px;
+}
+
+.card .feature-title{
+    color: #d01919;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.card .desc{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 48px;
+}
