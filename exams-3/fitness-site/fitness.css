@@ -8,15 +8,16 @@
 h1,
 h2,
 h3,
-h4{
+h4 {
     font-family: 'PT Sans', sans-serif;
 }
 
 p,
 a,
-span{
+span {
     font-family: 'PT Serif', serif;
 }
+
 /* 
 font-family: 'PT Sans', sans-serif;
 font-family: 'PT Serif', serif;
@@ -101,7 +102,7 @@ body {
     font-weight: 600;
 }
 
-.hero .desc{
+.hero .desc {
     position: absolute;
     top: 55%;
     left: 50%;
@@ -110,7 +111,7 @@ body {
     width: 500px;
 }
 
-.hero .btn{
+.hero .btn {
     position: absolute;
     top: 68%;
     left: 50%;
@@ -124,36 +125,41 @@ body {
 
 /* Welcome section */
 
-.welcome{
+.welcome {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.welcome .divider{
+
+.welcome .divider,
+.coaches .divider {
     height: 3px;
     width: 40px;
     background-color: #d01919;
 }
 
-.welcome .head{
+.welcome .head,
+.coaches .head {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.head .sub{
-font-size: 36px;
-margin-bottom: 24px;
+.head .sub,
+.coaches .sub {
+    font-size: 36px;
+    margin-bottom: 24px;
+    text-align: center;
 }
 
-.features{
+.features {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.features .card{
+.features .card {
     display: flex;
     width: 30%;
     flex-direction: column;
@@ -161,20 +167,76 @@ margin-bottom: 24px;
     margin: 36px auto;
 }
 
-.card .card-img{
+.card .card-img {
     width: 50px;
     height: 50px;
     margin-bottom: 24px;
 }
 
-.card .feature-title{
+.card .feature-title {
     color: #d01919;
     text-align: center;
     margin-bottom: 24px;
 }
 
-.card .desc{
+.card .desc {
     width: 60%;
     text-align: center;
     margin-bottom: 48px;
 }
+
+/* Coaches */
+
+.coaches {
+    background-color: #efefef;
+    padding-top: 60px;
+}
+
+.coaches .coaches-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 24px auto;
+    align-items: center;
+    gap: 60px;
+}
+
+.coaches-cards .coach {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+}
+
+.coaches-cards .img{
+    width: 50%;
+    height: 50%;
+}
+
+.coach .coach-name {
+    font-weight: 600;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.coach .type{
+    color: #d01919;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.coach .info{
+    width: 270px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+footer .foot {
+    background-color: #d01919;
+    color: black;
+    text-align: center;
+    padding: 8px 0;
+}
+
