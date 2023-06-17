@@ -1,21 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* 
-fonts
-font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;
 
-clr
-green: #0da347;
-
-blue: #4e6f8e;
-lilavo: #4e6f8e;
 bg-tumno: #4e6f8e;
 bukvi-footer: #85849f;
 taksi: #c3bab8;
 sivo: #e6e6e6;
-btn-lilavo: #9a5dc6
-#
+
 tekst: #54546d;
 */
 
@@ -24,11 +15,14 @@ h2,
 h3,
 h4 {
     font-family: 'Montserrat', sans-serif;
+    color:#54546d;
 }
 
 span,
-p {
+p,
+a {
     font-family: 'Lato', sans-serif;
+    color: #54546d;
 }
 
 .header {
@@ -53,11 +47,11 @@ p {
 
 .nav-links a {
     text-decoration: none;
-    color: #54546d;
     font-weight: 500;
 }
 
 /* Calculator */
+
 .calculator {
     position: relative;
     background-color: #4e6f8e;
@@ -71,10 +65,7 @@ p {
     margin: 40px 0;
     object-fit: cover;
 }
-
-/* .main{
-position: relative;
-} */
+/* Tax */
 
 
 .tax {
@@ -87,9 +78,12 @@ position: relative;
 }
 
 .tax .title {
-    color: #54546d;
-    font-size: 48px;
+    font-size: 36px;
+    color: white;
+    font-weight: 500;
 }
+
+/* Cards */
 
 .cards {
     display: flex;
@@ -105,7 +99,6 @@ position: relative;
     height: 500px;
     border: 1px solid black;
     background-color: white;
-    color: #54546d;
     border-radius: 8px;
 }
 
@@ -163,12 +156,14 @@ position: relative;
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 1px;
+    color: white;
 }
 
 .card .first .sum,
-.card .secon .sum,
+.card .second .sum,
 .card .third .sum {
     text-align: center;
+    color: white;
 }
 
 .card .bottom.second {
@@ -191,9 +186,76 @@ position: relative;
 
 .card .bottom .divider>span {
     display: block;
-    height: 70px;
+    height: 90px;
     width: 2px;
     background-color: white;
     margin-top: 8px 0;
 }
 
+/* Info */
+
+.main .info{
+    display: flex;
+    margin-top: 200px;
+    width: 1200px;
+    flex-direction: column;
+ margin-left: 120px;
+}
+
+.info-head .desc{
+    margin-bottom: 36px;
+}
+.info-body .info-desc1{
+    background-color: #e6e6e6;
+    margin: 0;
+    padding: 24px 0px;
+}
+
+.info-body .info-desc1:first-child{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.info-body .info-desc2{
+    background-color: #f8f8f8;
+    width: 100%; 
+    padding: 24px 0px;
+    margin: 0;
+}
+
+
+.info-body .info-desc1 img,
+.info-body .info-desc2 img{
+    padding-right: 150px;
+}
+
+.info-body .info-desc2:last-child{
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* .info-body .info-desc1 img:nth-last-of-type(1),
+.info-body .info-desc2 img:nth-last-of-type(1){
+margin-left: 140px;
+}
+
+.info-body .info-desc1 .check,
+.info-body .info-desc2 .check{
+margin-right: 50px;
+} */
+
+
+.finance{
+    display: flex;
+    margin: 60px auto;
+}
+
+.finance .right{
+   align-self: center;
+}
+
+footer .foot{
+    background-color: #4e6f8e;
+    text-align: center;
+    padding: 24px 0;
+}
