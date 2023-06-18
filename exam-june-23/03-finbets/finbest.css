@@ -7,3 +7,143 @@ green: #ade2df
 
 */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    margin: 0 120px;
+}
+
+.header .navigation{
+display: flex;
+justify-content: space-between;
+margin: 24px 0;
+}
+
+.navigation .nav-list{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-list .nav-item a{
+    padding-right: 24px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.login .log-in{
+    border: none;
+    background-color: white;
+    padding-right: 12px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.login .sign-up{
+    background-color: #ade2df;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero .info{
+    background-color: #ade2df;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .title{
+    font-size: 36px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.info .desc{
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+
+.info .buttons button{
+    background-color: black;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 6px;
+    margin-bottom: 48px;
+}
+
+.info .buttons i{
+    padding-right: 12px;
+}
+
+.statistic{
+height: 200px;
+ margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.statistic .didider{
+    margin-top: 36px;
+    height: 80%;
+    background-color: grey;
+    width: 2px;
+    margin: 0 36px;
+}
+
+.part{
+    width: 30%;
+}
+
+.part .number{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+margin-top: 36px;
+margin-bottom: 24px;
+}
+
+.part .text{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.everything {
+    display: flex;
+    background-color: #ade2df;
+    text-align: center;
+
+}
+
+.everything .img-wrapper {
+    width: 50%;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.everything .img-wrapper .img{
+    width: 30%;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+   padding-left: 10%;
+}
+
